@@ -1,8 +1,8 @@
 ## **PSET 1** | Aluna: Julia Costa | Turma: CC1M | Professor: Abrantes Filho
 ## O que é esse repositório do Github?
-#### Esse repositório será usado para documentar o trabalho Pset1, desenvolvido pelo meu professor de Design e Desenvolvimento de Banco de Dados, Abrantes Filho.
+#### Esse repositório será usado para documentar a atividade Pset1, desenvolvida pelo meu professor de Design e Desenvolvimento de Banco de Dados, Abrantes Filho.
 ## Sobre o Pset1
-Nesse trabalho, tive que desenvolver um banco de dados em dois programas: **PostgreSQL** e **MariaDB**.
+Nessa atividade, tive que desenvolver um banco de dados em dois programas: **PostgreSQL** e **MariaDB**.
 
 O **PostgreSQL** é um **sistema gerenciador de banco de dados - SGBD**, e uma ferramenta open-source (significa que o seu código pode ser acessada por qualquer pessoa)  em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc..
 
@@ -19,7 +19,7 @@ Já o **Github** é uma platafroma pra hospedagem desses arquivos que estão sen
 
 ## Um Overview da minha experiência durante o desenvolvimento do Pset1
 No ínico do processo de fazer os scriptsSQL e adiconar os dados no banco do dados, principalmente no PostgreSQL, foi um pouco cansativo, visto que
-nunca tinha usado o programa antes. Agora no final do projeto, achei muito útil aprender a utilizar esse SGBD. Achei simples de usar em algumas questões
+nunca tinha usado o programa antes. Agora no final da atividade, achei muito útil aprender a utilizar esse SGBD. Achei simples de usar em algumas questões
 (como inserir os dados com o comando *INSERT*, que já te dá a estrutura pronta), porém, como dito anteriormente, nunca usei o programa antes, então tive que encarar alguns "desafios", como por exemplo, quando tive que usar alguns comandos totalmente diferentes do MySQL (único programa que já tinha usado) no Postgres.
 
 No geral, considero que tive um bom desempenho e evolução com esse Pset, visto que aprendi muitas coisas que serão muito úteis daqui pra frente, e espero aprender mais com as próximas atividades!
