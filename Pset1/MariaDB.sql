@@ -237,6 +237,49 @@ values
 
 select * from trabalha_em;
 
+ALTER TABLE trabalha_em ADD CONSTRAINT funcionario_trabalha_em_fk
+FOREIGN KEY (cpf_funcionario)
+REFERENCES funcionario (cpf)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE departamento ADD CONSTRAINT funcionario_departamento_fk
+FOREIGN KEY (cpf_supervisor)
+REFERENCES funcionario (cpf)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE funcionario ADD CONSTRAINT funcionario_funcionario_fk
+FOREIGN KEY (cpf_supervisor)
+REFERENCES funcionario (cpf)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE dependente ADD CONSTRAINT funcionario_dependente_fk
+FOREIGN KEY (cpf_funcionario)
+REFERENCES funcionario (cpf)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+
+ALTER TABLE localizacoes_departamento ADD CONSTRAINT departamento_localizacoes_departamentos_fk
+FOREIGN KEY (numero_departamento)
+REFERENCES departamento (numero_departamento)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE projeto ADD CONSTRAINT projeto_departamento_fk
+FOREIGN KEY (numero_departamento)
+REFERENCES departamento (numero_departamento)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE trabalha_em ADD CONSTRAINT projeto_trabalha_em_fk
+FOREIGN KEY (numero_projeto)
+REFERENCES projeto (numero_projeto)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
 
 
 
