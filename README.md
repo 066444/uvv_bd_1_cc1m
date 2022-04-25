@@ -18,7 +18,7 @@ Já o **Github** é uma platafroma pra hospedagem desses arquivos que estão sen
 
 
 ## Um Overview da minha experiência durante o desenvolvimento do Pset1
-No ínico do processo de fazer os scriptsSQL e adiconar os dados no banco do dados, principalmente no PostgreSQL, foi um pouco cansativo, visto que
+No ínico do processo de fazer os scriptsSQL e adicionar os dados no banco do dados, principalmente no PostgreSQL, foi um pouco cansativo, visto que
 nunca tinha usado o programa antes. Agora no final da atividade, achei muito útil aprender a utilizar esse SGBD. Achei simples de usar em algumas questões
 (como inserir os dados com o comando *INSERT*, que já te dá a estrutura pronta), porém, como dito anteriormente, nunca usei o programa antes, então tive que encarar alguns "desafios", como por exemplo, quando tive que usar alguns comandos totalmente diferentes do MySQL (único programa que já tinha usado) no Postgres.
 
