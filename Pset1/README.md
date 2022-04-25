@@ -7,7 +7,7 @@ No programa **Power Architect** foi criado o diagrama das tabelas *funcionário*
 > O **modelo lógico** descreve as estruturas físicas da armazenamento de dados, tais como: tamanho de campos, índices, tipo de preenchimento destes campos, nomenclaturas, etc..
 
 
-Com a criação desse diagrama foram definidos os campos das tabelas, seus atributos e propriedades e ainda as chaves primárias, estrangeiras e alternativas (PK, FK e AK), além dos índices e relacionamentos e comentários em cada tabela.
+Com a criação desse diagrama foram definidos os campos das tabelas, seus atributos e propriedades e ainda as chaves primárias, estrangeiras e alternativas (PK, FK e AK), além dos índices, relacionamentos e comentários em cada tabela.
 
 
 # Implementação do modelo lógico nos SGBDs
