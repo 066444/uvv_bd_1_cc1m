@@ -23,7 +23,7 @@ Primeiro, foi criado a **role** - *CREATE ROLE nome_usuário*
 
 Depois foi criado o **banco de dados** *"uvv"* - *CREATE DATABASE nome_banco*, com alguns parâmetros como o *usuário*, o *template*, o *encoding*, o *lc_collate* e *lc_ctype* e *allow_connections* - *CREATE DATABASE uvv WITH user, template, encoding, lc_collate, lc_ctype, allow_connections*.
 
-Em seguida, foi criado o esquema *"elmasri"* - *CREATE SCHEMA *nome_schema*.
+Em seguida, foi criado o esquema *"elmasri"* - *CREATE SCHEMA nome_schema*.
 
 > Um **esquema** contém objetos nomeados (tabelas, tipos de dados, funções e operadores) cujos nomes podem duplicar os de outros objetos existentes em outros esquemas. [PostgreSQL Documentation - schema](https://www.postgresql.org/docs/current/sql-createschema.html)
 
