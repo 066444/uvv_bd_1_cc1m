@@ -63,7 +63,7 @@ Com o comando *CREATE TABLE funcionario* cria-se uma das tabelas. Depois adicion
 
 **Importante:** No MariaDB, a ordem básica de criar as tabels é: *criar tabela, inserir dados, etc..'*. Se for criado todas as tabelas de uma só vez, ocorre um erro no programa com a relação das chaves estrangeiras, por exemplo.
 
-Por fim, depois de criar todas as tabelas e inserir o resto dos dados, o comando *SELECT * FROM nome_tabela* pode ser usado para acessar todos os dados que foram colocados em uma tabela específica.
+Por fim, depois de criar todas as tabelas e inserir o resto dos dados, o comando *SELECT * FROM nome_tabela* pode ser usado para acessar todos os dados que foram inseridos em uma tabela específica.
 
 ## Algumas observações
 
