@@ -36,6 +36,37 @@ O nome do esquema deve vir antes do nome da tabela, para identificá-lo. Depois 
 ## Implementação scripts - MariaDB
 No programa **MariaDB** também foi implementado o modelo lógico seguindo a documentação.
 
+Primeiro o comando *SHOW DATABASES* é usado para mostrar todos os banco de dados no sistema. Depois o comando *CREATE DATABASE uvv* é usado para criar o banco de dados *"uvv"*.
+Agora sobre o esquema Elmasri. No MariaDB/MySQL *schema* e *database* são a mesma coisa. 
+
+**representação do comando *SHOW DATABASES***
+
+| Databases          |
+---------------------|
+| elamsri            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| uvv                |
+
+
+> o "esquema" elmasri aparece como um banco de dados.
+
+Então, tecnicamente não é possível criar um esquema no MariaDB.
+
+Depois, com o comando *use uvv*, o programa começa a usar o banco de dados *"uvv"* para criar tabelas, user e etc.
+
+Criando o user com o comando *CREATE USER nome_user* e garantindo todos os privilégios para o user com o comando *GRANT ALL PRIVILEGES TO nome_user ON nome_banco TO nome_user*, podemos começar a criar as tabelas, assim como no Postgres.
+
+Com o comando *CREATE TABLE funcionario* cria-se uma das tabelas. Depois adiciona-se os comentários e por fim, inserir os dados na tabela com o comando *INSERT INTO nome_tabela (..., ...) VALUES (dado1, dado2, ...)*
+
+**Importante:** No MariaDB, a ordem básica de criar as tabels é: *criar tabela, inserir dados, ....'.*. Se for criado todas as tabelas de uma só vez, ocorre um erro no programa com a relação das chaves estrangeiras, por exemplo.
+
+Por fim, depois de criar todas as tabelas e inserir o resto dos dados, o comando *SELECT * FROM nome_tabela* pode ser usado para acessar todos os dados que foram colocados em uma tabela específica.
+
+
+
 
 
 
