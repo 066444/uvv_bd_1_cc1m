@@ -14,7 +14,7 @@ Depois de entender mais sobre os SGBDs e sobre a linguagem usada neles, foi hora
 
 Em poucas palavras, o **Git** é um sistema de versionamento de arquivos. Para melhor entendimento, aqui vai um exemplo: quando se faz algum trabalho ou projeto com um grupo de pessoas, cada um faz uma parte, para depois todos os membros se reunirem e unirem cada parte. E é aí que o **Git** entra em ação. Caso alguém do grupo queira fazer modificações no projeto, mas continuar tendo acesso a outras partes do mesmo arquivo, o **Git** será uma ferramenta essencial para salvar todas as modificações feitas nesse projeto. Ele permite os usuários ter controle de tudo aquilo que já foi escrito.
 
-Já o **Github** é uma platafroma pra hospedagem desses arquivos que estão sendo utilizados no **Git**, que estão tendo esse controle de versionamento. O **Github** é basicamento um host para depositar todos os seus arquivos em repositórios.
+Já o **Github** é uma platafroma para a hospedagem desses arquivos que estão sendo utilizados no **Git**, que estão tendo esse controle de versionamento. O **Github** é basicamento um host para depositar todos os seus arquivos em repositórios.
 
 
 ## Um Overview da minha experiência durante o desenvolvimento do Pset1
