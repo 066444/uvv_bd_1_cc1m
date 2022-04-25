@@ -39,7 +39,7 @@ No programa **MariaDB** também foi implementado o modelo lógico seguindo a doc
 Primeiro o comando *SHOW DATABASES* é usado para mostrar todos os banco de dados no sistema. Depois o comando *CREATE DATABASE uvv* é usado para criar o banco de dados *"uvv"*.
 Agora sobre o esquema Elmasri. No MariaDB/MySQL *schema* e *database* são a mesma coisa. 
 
-**representação do comando *SHOW DATABASES***
+**representação do comando *SHOW DATABASES* quando se cria o esquema elmasri**
 
 | Databases          |
 ---------------------|
