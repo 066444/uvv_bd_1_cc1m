@@ -61,9 +61,13 @@ Criando o user com o comando *CREATE USER nome_user* e garantindo todos os privi
 
 Com o comando *CREATE TABLE funcionario* cria-se uma das tabelas. Depois adiciona-se os comentários e por fim, inserir os dados na tabela com o comando *INSERT INTO nome_tabela (..., ...) VALUES (dado1, dado2, ...)*
 
-**Importante:** No MariaDB, a ordem básica de criar as tabels é: *criar tabela, inserir dados, ....'.*. Se for criado todas as tabelas de uma só vez, ocorre um erro no programa com a relação das chaves estrangeiras, por exemplo.
+**Importante:** No MariaDB, a ordem básica de criar as tabels é: *criar tabela, inserir dados, etc..'*. Se for criado todas as tabelas de uma só vez, ocorre um erro no programa com a relação das chaves estrangeiras, por exemplo.
 
 Por fim, depois de criar todas as tabelas e inserir o resto dos dados, o comando *SELECT * FROM nome_tabela* pode ser usado para acessar todos os dados que foram colocados em uma tabela específica.
+
+## Algumas observações
+
+No meu projeto do banco de dados *"uvv"*, fiz algumas mudanças, como na tabela *departamento* mudei *cpf_gerente* para *cpf_supervisor*. Mas por que fiz isso? No meu ponto de vista, na tabela *funcionario* temos *cpf_supervisor* e na tabela *departamento temos *cpf_gerente*. Essas duas tabelas estão relacionadas, mas quando eu tentanva colocar em *departamento* *cpf_gerente*, um erro aparecia. É como se a tabela *departamento* estivesse "chamando" o *cpf_gerente* na tabela *funcioionario*, mas ele nao existe nesta tabela.
 
 
 
