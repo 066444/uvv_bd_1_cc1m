@@ -16,8 +16,10 @@ AS idade, salario, nome_departamento FROM funcionario, departamento;
 
 
 -- Questão 4. 
-SELECT CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome), YEAR(CURRENT_TIMESTAMP())-YEAR(func.data_nascimento) AS idade,func.salario as salario_atual,if(salario < 35000, salario * 1.2, salario * 1.15) as salario_reajustado
+SELECT CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome) AS nome, YEAR(CURRENT_TIMESTAMP())-YEAR(func.data_nascimento) AS idade,func.salario as salario_atual,if(salario < 35000, salario * 1.2, salario * 1.15) as salario_reajustado
 from funcionario as func;
+
+-- Questão 5.
 
 
 
