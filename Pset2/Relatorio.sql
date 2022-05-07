@@ -22,13 +22,16 @@ from funcionario as func;
 -- QUESTÃO 5.
 
 -- QUESTÃO 6. (revisar)
-SELECT CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome) AS nome_funcionario,
-trab.numero_projeto,
-dependente.nome_dependente,YEAR(CURRENT_TIMESTAMP())-YEAR(dependente.data_nascimento) AS idade_dependente, IF (dependente.sexo = "M","Masculino","Feminino") as sexo_dependente
-FROM ((funcionario AS func
-INNER JOIN (SELECT DISTINCT cpf_funcionario, numero_projeto FROM trabalha_em) AS trab ON func.cpf = trab.cpf_funcionario)
-INNER JOIN dependente ON func.cpf = dependente.cpf_funcionario)
-GROUP BY nome_funcionario;
+SELECT DISTINCT CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome) AS nome_funcionario, 
+depart.nome_departamento as nome_departamento, 
+dep.nome_dependente, YEAR(CURRENT_TIMESTAMP())-YEAR(dep.data_nascimento) AS idade_dependente,
+case dep.sexo
+when 'M' then 'Masculino'
+when 'F' then 'Feminino'
+end as sexo_dependente
+from departamento depart
+inner join funcionario func on (depart.numero_departamento = func.numero_departamento)
+inner join dependente dep on (func.cpf = dep.cpf_funcionario);
 
 
 -- QUESTÃO 7.
