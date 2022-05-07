@@ -60,7 +60,7 @@ GROUP BY numero_departamento;
 
 
 -- QUESTÃO 11.
-SELECT CONCAT(func.primeiro_nome,' ',nome_meio,'. ',ultimo_nome) AS nome_funcionario,
+SELECT CONCAT(func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome) AS nome_funcionario,
 projeto.nome_projeto,
 (trabalha_em.horas * 50) AS valor_total
 FROM ((funcionario AS func
