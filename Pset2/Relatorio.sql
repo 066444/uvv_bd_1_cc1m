@@ -64,12 +64,12 @@ WHERE cpf NOT IN
 
 
 -- QUESTÃO 8.
-SELECT projeto.numero_departamento,nome_projeto,
-trabalha_em.horas,
-CONCAT (funcionario.primeiro_nome,' ', nome_meio,'. ',  ultimo_nome) AS nome_func
-FROM ((projeto
-INNER JOIN trabalha_em ON trabalha_em.numero_projeto = projeto.numero_projeto)
-INNER JOIN funcionario ON funcionario.cpf = trabalha_em.cpf_funcionario);
+SELECT proj.numero_departamento AS 'Numero_departamento',nome_projeto AS 'Nome_projeto',
+trab_em.horas AS 'Horas',
+CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome) AS 'Nome_completo'
+FROM ((projeto AS proj
+INNER JOIN trabalha_em  AS trab_em ON trab_em.numero_projeto = proj.numero_projeto)
+INNER JOIN funcionario AS func ON func.cpf = trab_em.cpf_funcionario);
 
 
 -- QUESTÃO 9.
