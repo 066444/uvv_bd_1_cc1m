@@ -116,7 +116,7 @@ YEAR(CURRENT_TIMESTAMP())-YEAR(func.data_nascimento) as 'Idade'
 FROM funcionario AS func
 ORDER BY 'Idade' DESC;
 
--- QUESTÃO 4.
+-- QUESTÃO 14.
 SELECT depart.nome_departamento AS 'Nome_departamento',
 CASE WHEN func.numero_departamento = depart.numero_departamento
 THEN COUNT (func.cpf) 
