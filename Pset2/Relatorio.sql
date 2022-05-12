@@ -30,18 +30,15 @@ func.salario AS 'Salario_atual',
 FROM funcionario AS func;
 
 -- QUESTÃO 5.
-SELECT DISTINCT nome_departamento, salario,
-CASE 
-WHEN depart.cpf_supervisor = func.cpf_supervisor
-THEN 
-CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome)
-END AS 'Nome_gerente',
-CASE WHEN func.cpf_supervisor = depart.cpf_supervisor
-THEN CONCAT (func.primeiro_nome,' ', nome_meio,' ', '',  ultimo_nome)
-END AS 'Nome_funcionario'
-FROM  departamento AS depart
-INNER JOIN funcionario AS func ON (func.numero_departamento = depart.numero_departamento)
-ORDER BY nome_departamento ASC, salario DESC;
+SELECT depart.nome_departamento AS 'Nome_departamento',
+CONCAT(ger.primeiro_nome,' ' ,nome_meio, ' ' ,ultimo_nome) AS 'Nome_gerente', CONCAT(func.primeiro_nome,' ' ,nome_meio, ' ' ,ultimo_nome) AS 'Nome_funcionario', salario AS 'Salario_funcionario'
+FROM departamento AS depart 
+INNER JOIN funcionario AS func, 
+(SELECT primeiro_nome, cpf FROM funcionario AS func 
+INNER JOIN departamento AS depart WHERE func.cpf = depart.cpf_supervisor) as ger
+WHERE func.numero_departamento = depart.numero_departamento 
+AND ger.cpf = depart.cpf_supervisor 
+ORDER BY depart.nome_departamento ASC, func.salario DESC;
 
 -- QUESTÃO 6.
 SELECT  
