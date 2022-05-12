@@ -46,10 +46,10 @@ ORDER BY nome_departamento ASC, salario DESC;
 -- QUESTÃO 6.
 SELECT  
 CONCAT (funcionario.primeiro_nome,' ', nome_meio,'. ', '',  ultimo_nome) AS 'Nome_funcionario',
-dependente.nome_dependente AS 'Nome_dependente,
-(IF(dependente.sexo = 'F', 'Feminino', 'Masculino')) as sexo_dependente,YEAR(CURRENT_TIMESTAMP())-YEAR(dependente.data_nascimento) 
+dependente.nome_dependente AS 'Nome_dependente',
+(IF(dependente.sexo = 'F', 'Feminino', 'Masculino')) as 'Sexo_dependente',YEAR(CURRENT_TIMESTAMP())-YEAR(dependente.data_nascimento) 
 AS 'Idade_dependente',
-departamento.nome_departamento AS 'Nome_departamento
+departamento.nome_departamento AS 'Nome_departamento'
 FROM ((dependente
 INNER JOIN funcionario on dependente.cpf_funcionario = funcionario.cpf)
 INNER JOIN departamento on departamento.numero_departamento = funcionario.numero_departamento);
