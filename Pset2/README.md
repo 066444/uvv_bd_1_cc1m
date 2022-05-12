@@ -25,7 +25,7 @@
 | Nome_departamento | Nome_completo    | Data_nascimmento | Idade | Salario |
 | ------------------ | ---------------- | ---------------- | ----- | ------- |
 | Administração     | André V Pereira  | 1969-03-29       | 53    | 25.000  |
-| Administração     | Alice Z Zelaya   | 1968-01-19       | 34    | 25.000  |
+| Administração     | Alice J Zelaya   | 1968-01-19       | 34    | 25.000  |
 | Administração     | Jennifer S Souza | 1941-06-20       | 81    | 43.000  |
 | Matriz            | Jorge E Brito    | 1937-11-10       | 85    | 55.000  |
 | Pesquisa          | Joice A Leite    | 1972-07-31       | 50    | 25.000  |
