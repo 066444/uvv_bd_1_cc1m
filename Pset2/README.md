@@ -50,16 +50,16 @@
 #### QUESTÃO 5.
 #### Prepare um relatório que liste, para cada departamento, o nome do gerente e o nome dos funcionários. Ordene esse relatório por nome do departamento (em ordem crescente) e por salário dos funcionários (em ordem decrescente).
 
-| Nome_departamento | Nome_gerente     | Nome_funcionario
-| ------------------ | ---------------- |
-| Administração     | Jennifer S Souza |
-| Administração     | Alice J Zelaya   |
-| Administração     | André V Pereira  |
-| Matriz            | Jorge E Brito    |
-| Pesquisa          | Fernando T Wong  |
-| Pesquisa          | Ronaldo K Lima   |
-| Pesquisa          | Joaõ B Silva     |
-| Pesquisa          | Joice A Leite    |
+| Nome_departamento | Nome_gerente     | Nome_funcionario | Salario_funcionario |
+| ------------------ | ---------------- | ---------------- | ------------------- |
+| Administração     | Jennifer S Souza | Jennifer S Souza | 43.000              |
+| Administração     | Alice J Zelaya   | Alice J Zelaya   | 25.000              |
+| Administração     | André V Pereira  | André V Pereira  | 25.000              |
+| Matriz            | Jorge E Brito    | Jorge E Brito    | 55.000              |
+| Pesquisa          | Fernando T Wong  | Fernando T Wong  | 40.000              |
+| Pesquisa          | Ronaldo K Lima   | Ronaldo K Lima   | 38.000              |
+| Pesquisa          | Joaõ B Silva     | Joaõ B Silva     | 30.000              |
+| Pesquisa          | Joice A Leite    | Joice A Leite    | 25.000              |
 
 
 #### QUESTÃO 6.
