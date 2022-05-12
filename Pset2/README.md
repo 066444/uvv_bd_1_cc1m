@@ -41,7 +41,7 @@
 | João B Silva     | 57    | 30.000        | 36.000             |
 | Fernando T Wong  | 67    | 40.000        | 46.000             |
 | Joice A Leite    | 50    | 25.000        | 30.000             |
-| Ronaldp K Lima   | 60    | 38.000        | 43.700             |
+| Ronaldo K Lima   | 60    | 38.000        | 43.700             |
 | Jorge E Brito    | 85    | 55.000        | 63.250             |
 | Jennifer S Souza | 81    | 43.000        | 49.450             |
 | André V Pereira  | 53    | 25.000        | 30.000             |
@@ -49,6 +49,17 @@
 
 #### QUESTÃO 5.
 #### Prepare um relatório que liste, para cada departamento, o nome do gerente e o nome dos funcionários. Ordene esse relatório por nome do departamento (em ordem crescente) e por salário dos funcionários (em ordem decrescente).
+
+| Nome_departamento | Nome_gerente     | Nome_funcionario
+| ------------------ | ---------------- |
+| Administração     | Jennifer S Souza |
+| Administração     | Alice J Zelaya   |
+| Administração     | André V Pereira  |
+| Matriz            | Jorge E Brito    |
+| Pesquisa          | Fernando T Wong  |
+| Pesquisa          | Ronaldo K Lima   |
+| Pesquisa          | Joaõ B Silva     |
+| Pesquisa          | Joice A Leite    |
 
 
 #### QUESTÃO 6.
