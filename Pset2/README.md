@@ -3,10 +3,10 @@
 Nesse Pset, foi utilizado o MariaDB para fazer a consulta dos dados.
 O Pset2 depende totalmente do Pset1, onde foram criados os modelos lógico e conceitual do esquema Elmasri.
 
-Antes de realizar as consultas é preciso usar o banco de dados criado no primeiro Pset, *"uvv"* 
+Antes de realizar as consultas é preciso usar o banco de dados criado no primeiro Pset, *"uvv"*:
 `use uvv;`
 
-Pronto! Agora foi a hora de começar a fazer todo o relatório com base nas questões propostas do Pset2.
+Pronto! Agora foi a hora de começar a fazer todo o relatório com base nas questões propostas no Pset2.
 
 ## Relatórios SQL 
 #### QUESTÃO 1.
